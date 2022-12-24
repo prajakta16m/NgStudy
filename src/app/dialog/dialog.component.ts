@@ -3,9 +3,12 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'p-dialog',
   template: `
-    <p>hi</p>
+    <div id='dd'>
+     <p>This text is inside dialog</p>
+    </div>
+    
   `,
-  styleUrls: []
+  styleUrls: ['./dialog.component.scss']
 })
 export class DialogComponent {
 
