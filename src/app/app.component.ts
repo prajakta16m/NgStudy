@@ -19,4 +19,8 @@ export class AppComponent  {
     dcon.hasBackdrop =  false;
     this.matd.open(DialogComponent, dcon);
   }
+
+  goHome(){
+    
+  }
 }

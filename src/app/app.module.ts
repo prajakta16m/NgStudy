@@ -10,10 +10,13 @@ import { ObservableVpromisesComponent } from './practice/observableVpromise';
 
 import { RouterModule } from '@angular/router'; 
 import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './practice/home.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatDialogModule, AppRoutingModule],
-  declarations: [AppComponent, HelloComponent, DialogComponent, ObservableVpromisesComponent],
+  declarations: [AppComponent, HelloComponent, DialogComponent, ObservableVpromisesComponent,
+    HomeComponent
+  ],
   bootstrap: [AppComponent],
   entryComponents: [DialogComponent]
 })    
