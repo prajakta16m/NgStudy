@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { Observable } from "rxjs/internal/Observable";
 
+
 @Component({
   selector: 'obs-v-prom',
   template: ''
